@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/veenanc01/config-server.git
+          username: veenanc@gmail.com
+          password: Tanushree2010@#$
+          default:
+            lable: master
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: test
+    password: test
