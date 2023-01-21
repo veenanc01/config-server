@@ -11,44 +11,7 @@ spring:
           uri: git@github.com:veenanc01/config-server
           clone-on-start: true
           ignore-local-ssh-settings: true
-          private-key: -----BEGIN OPENSSH PRIVATE KEY-----
-                      b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
-                      NhAAAAAwEAAQAAAYEAyzPiYnMahFg6vlLtdm/HlcjE5bAa/d6laewSwr7exYY+F5KlUgi1
-                      tbGt0NcB6sfVlqK68XoTazFW8ISlICj7ho/+WHcXDgbvCwJ6vBGZvUxfAT3pVWRaXFchsq
-                      qPzaQ2dUU/m1VQhk/Leb7DIXvuXGNxsTx10YCd6YCqJ9LVQpxsHpAelN9JxVzY8INUManq
-                      rggOF6L+Yj+eLllIZfHS1t6bRQIGo/3+ri7BRsl5cW6XoaPn5D0jRJCJA+8cp75IlzFvhy
-                      92CC6/3uwXNHR+OO32D8bOo784Kkb6Vj+DWkq5jXgCqy43XEgjQOA3r+WvYbuqFXaVN9Pi
-                      pQNlkt+qeoHFJa2i5Hic9BHFhmtn1tVzWgudsMq7PRCQEPqzNat6e0vM71jHom3fPmubyl
-                      j5bZC95bPJAkzezTzfXSnKzkC46ptzXZRmitQDJORuaZz8eGMCOi2+RyBfjCqrt3NUemJH
-                      so9MN1o3xvjpci11LzSVR52nafcFwlH78TTtiboBAAAFiGcna+ZnJ2vmAAAAB3NzaC1yc2
-                      EAAAGBAMsz4mJzGoRYOr5S7XZvx5XIxOWwGv3epWnsEsK+3sWGPheSpVIItbWxrdDXAerH
-                      1ZaiuvF6E2sxVvCEpSAo+4aP/lh3Fw4G7wsCerwRmb1MXwE96VVkWlxXIbKqj82kNnVFP5
-                      tVUIZPy3m+wyF77lxjcbE8ddGAnemAqifS1UKcbB6QHpTfScVc2PCDVDGp6q4IDhei/mI/
-                      ni5ZSGXx0tbem0UCBqP9/q4uwUbJeXFul6Gj5+Q9I0SQiQPvHKe+SJcxb4cvdgguv97sFz
-                      R0fjjt9g/GzqO/OCpG+lY/g1pKuY14AqsuN1xII0DgN6/lr2G7qhV2lTfT4qUDZZLfqnqB
-                      xSWtouR4nPQRxYZrZ9bVc1oLnbDKuz0QkBD6szWrentLzO9Yx6Jt3z5rm8pY+W2QveWzyQ
-                      JM3s08310pys5AuOqbc12UZorUAyTkbmmc/HhjAjotvkcgX4wqq7dzVHpiR7KPTDdaN8b4
-                      6XItdS80lUedp2n3BcJR+/E07Ym6AQAAAAMBAAEAAAGAZeggWaVGICcrVrW6F1KZsnmcnW
-                      BDORxGsqdNBVO53y+iximqNUje8D8qX3jkoj0T1dbIkD/bqz90TW0Ibud+tQ5TzUP0UPmT
-                      Ol9E9DqTcobxgmrtMQEB/BtKcBLvyX7YPNm8u4b+uk0cS3Mq4wkHElhg9TTQFYA+MZNwQk
-                      aO4zgVVQKMA7czhQI6XexO9hUz95Fcl+gLUXR8PNxT3aR4S4AaOHJ6qBXCetJB5eE2wXdo
-                      Hg1YR3ON0131CP8KzOk1EoEjTj9Wrtl7eOznOHDi+Jb35ajrJXlVBt6X1RMGonjYuz/DGK
-                      PGG5kiXKA97wztADlzBEqpy7mCBg1tyxN4eUKBcqn4EMzTsdHn06PNh3dguhKzshNP+lyN
-                      u5+2xJ5GA2vR/15reIvgmmYb+RcMHbrgWzFITKfWB4JNjJPxFIGrrO+c1lij5ICNxL5w5u
-                      bXdNBoDA/RfhIKfhXmHX/9hH90l/+L4ThH54ejdFCmvLQU12vlT8ffJGTGSQ8DWBr9AAAA
-                      wQDySFxUYkVxZNXO8MuKJ5FuJrO0Dnc9Q1L/u24gZT0dH0g9UHVALdOF0UyB7UhP1CNkjg
-                      aSRNnJdA5CGG8MpR+Wd4NxFBLGDulqHoP9zs1jqSYctUtAlQ2Vq1D4A3c0MlW/7egm7F6q
-                      PCeWtEwHQw0fSJZ6JTRsRSD+PnxwLuRT6ed7vxhSMJB9EfIHpXT7/YP1XKjKdFNqayuk4q
-                      Eqk9hRCAQ62wu3lvUxgxjlFb1ekM1trtj9BHci1kGMPLcll5MAAADBAPyMzQmj/I7ZCVwv
-                      ntTQ48I6zRVDHYC4GYY8+CJJBirdUorFGHbyN6SPbs8o/d8uHDjPGZ/lC7oJDs3KyLXncP
-                      yPwTwGgOifTtgTnhvuk3nydUaSIF6Jux00fe2kdJ5KqFuWZkI55apBPxnAVUeHcQSMRho5
-                      UCuSWDaFqqbnJBE2E8zAkOjW3dfvXLBXpZNswsIjKZZlT4GJMNvm66NcqJsisyl+vZgojg
-                      CpEOm8+/KwrRNgmMdr2o54ApwcTOD5WwAAAMEAzfqCc43puiNC41j/BM+jlLIU1tWoITWR
-                      tqJi8c3xIMHJVnUlSbuhgdfkZxo6H+SeOBHzD9LeyQwD7OjuzJZeFC/aqzaXkV3glWkLcw
-                      b3L2pZAD+AoiMzERxqLuJrZBBtCoAjCQ7wnuj4LAgn7hKJuHMMGKOEHCKSvp+sy58l4c61
-                      HEWIbHT8VSw+ilOF1VNnyU1ickMA3NIl9MP8fpAb6Z2dnyE1/DdlF8+5qGmIgAATFBJ2HS
-                      f4FNwcUl4kFtzTAAAAEXZlZW5hbmNAZ21haWwuY29tAQ==
-                      -----END OPENSSH PRIVATE KEY-----
+          private-key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLM+JicxqEWDq+Uu12b8eVyMTlsBr93qVp7BLCvt7Fhj4XkqVSCLW1sa3Q1wHqx9WWorrxehNrMVbwhKUgKPuGj/5YdxcOBu8LAnq8EZm9TF8BPelVZFpcVyGyqo/NpDZ1RT+bVVCGT8t5vsMhe+5cY3GxPHXRgJ3pgKon0tVCnGwekB6U30nFXNjwg1QxqequCA4Xov5iP54uWUhl8dLW3ptFAgaj/f6uLsFGyXlxbpeho+fkPSNEkIkD7xynvkiXMW+HL3YILr/e7Bc0dH447fYPxs6jvzgqRvpWP4NaSrmNeAKrLjdcSCNA4Dev5a9hu6oVdpU30+KlA2WS36p6gcUlraLkeJz0EcWGa2fW1XNaC52wyrs9EJAQ+rM1q3p7S8zvWMeibd8+a5vKWPltkL3ls8kCTN7NPN9dKcrOQLjqm3NdlGaK1AMk5G5pnPx4YwI6Lb5HIF+MKqu3c1R6Ykeyj0w3WjfG+OlyLXUvNJVHnadp9wXCUfvxNO2JugE= veenanc@gmail.com
           passphrase: veena-local-machine
           default-label: master
   datasource:
