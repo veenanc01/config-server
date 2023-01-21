@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:veenanc01/config-server.git
+          uri: git@github.com:veenanc01/config-server
           default-label: master
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
