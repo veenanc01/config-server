@@ -11,10 +11,11 @@ spring:
           uri: https://github.com/veenanc01/config-server.git
           username: veenanc@gmail.com
           password: Tanushree2010@#$
-          default-label: master
+          default:
+            label: master
  # datasource:
   #  driver-class-name: com.mysql.jdbc.Driver
    # url: jdbc:mysql://localhost:3306/test
     #username: test
     #password: test
-message=Hello world - this message is from development
+message: Hello world - this message is from development
