@@ -8,11 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/veenanc01/config-server.git
+          uri: https://github.com/veenanc01/config-server
           username: veenanc@gmail.com
           password: Tanushree2010@#$
-          default:
-            label: master
  # datasource:
   #  driver-class-name: com.mysql.jdbc.Driver
    # url: jdbc:mysql://localhost:3306/test
