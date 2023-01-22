@@ -8,11 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:veenanc01/config-server
-          clone-on-start: true
-          ignore-local-ssh-settings: true
-          private-key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLM+JicxqEWDq+Uu12b8eVyMTlsBr93qVp7BLCvt7Fhj4XkqVSCLW1sa3Q1wHqx9WWorrxehNrMVbwhKUgKPuGj/5YdxcOBu8LAnq8EZm9TF8BPelVZFpcVyGyqo/NpDZ1RT+bVVCGT8t5vsMhe+5cY3GxPHXRgJ3pgKon0tVCnGwekB6U30nFXNjwg1QxqequCA4Xov5iP54uWUhl8dLW3ptFAgaj/f6uLsFGyXlxbpeho+fkPSNEkIkD7xynvkiXMW+HL3YILr/e7Bc0dH447fYPxs6jvzgqRvpWP4NaSrmNeAKrLjdcSCNA4Dev5a9hu6oVdpU30+KlA2WS36p6gcUlraLkeJz0EcWGa2fW1XNaC52wyrs9EJAQ+rM1q3p7S8zvWMeibd8+a5vKWPltkL3ls8kCTN7NPN9dKcrOQLjqm3NdlGaK1AMk5G5pnPx4YwI6Lb5HIF+MKqu3c1R6Ykeyj0w3WjfG+OlyLXUvNJVHnadp9wXCUfvxNO2JugE= veenanc@gmail.com
-          passphrase: veena-local-machine
+          uri: https://github.com/veenanc01/config-server.git
+          username: veenanc@gmail.com
+          password: Tanushree2010@#$
           default-label: master
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
